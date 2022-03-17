@@ -1,0 +1,93 @@
+/*Variáveis*/
+:root {
+    --green: #628E75;
+    --Fundo: #1A4855;
+    --white: #f9f9f9;
+  }
+  
+  /*Reset*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+      background-color: var(--Fundo);
+  }
+
+  .logo{    
+      margin-top: 5%;
+      width: 70%;
+
+  }
+
+  .img-logo{
+      position: absolute;
+      left: 50px;
+  }
+
+  .facebook{
+      position: absolute;
+      left: 900px;
+      background-image: url(/image/facebook.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      padding: 20px;
+      background-color: var(--Fundo);
+      border: none;
+      
+  }
+
+  .facebook:hover{
+      cursor: pointer;
+  }
+
+  .instagram{
+    position: absolute;
+    left: 1000px;
+    background-image: url(/image/icons8-instagram-50.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    background-color: var(--Fundo);
+    border: none;
+    
+}
+
+.instagram:hover{
+    cursor: pointer;
+}
+
+  .twitter{
+    position: absolute;
+    left: 1100px;
+    background-image: url(/image/icons8-twitter-50.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    background-color: var(--Fundo);
+    border: none;
+    
+}
+
+.twitter:hover{
+    cursor: pointer;
+}
+
+  .youtube{
+    position: absolute;
+    left: 1200px;
+    background-image: url(/image/icons8-reproduzir-youtube-50.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    background-color: var(--Fundo);
+    border: none;
+    
+    
+}
+
+.youtube:hover{
+    cursor: pointer;
+}
