@@ -11,6 +11,14 @@
     padding: 0;
     box-sizing: border-box;
   }
+  @font-face{
+    font-family: poppins;
+    src: url(/fonts/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: regular;
+    src:url(/fonts/Poppins-Regular.ttf);
+}
 
   body{
       background-color: var(--Fundo);
@@ -24,7 +32,9 @@
 
   .img-logo{
       position: absolute;
-      left: 50px;
+
+      left: 180px;
+      width: 10%;
   }
 
   .facebook{
@@ -90,4 +100,96 @@
 
 .youtube:hover{
     cursor: pointer;
+}
+
+
+.txt #altor{
+    position: absolute;
+    color: var(--white);
+    height: 30px;
+    width: 445px;
+    left: 180px;
+    margin-top: 150px;
+    font-family: poppins;
+  }
+
+  .txt #titulo{
+    position: absolute;
+    color: var(--white);
+    height: 148px;
+    width: 330px;
+    left: 180px;
+    margin-top: 170px;
+    font-family: poppins;
+    font-size: 50px;
+  }
+
+  .txt #cont{
+    position: absolute;
+    color: var(--white);
+    height: 148px;
+    width: 420px;
+    left: 180px;
+    margin-top: 330px;
+    font-family: regular;
+
+
+  }
+
+
+.ilus{
+    position: absolute;
+    height: 400px;
+    width: 450px;
+    left: 700px;
+    margin-top: 10%;
+    
+
+ ;
+
+}
+
+
+
+
+
+
+.as-agora{
+
+    position: absolute;
+    margin-top: 470px;
+    left: 200px;
+    
+    width: 200px;
+    height: 40px;
+    transform: skew(-25deg);
+
+    background-color: var(--green);
+    color: var(--white);
+    border: none ;
+
+    background-image: url(/image/icons8-reproduzir-50.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 20px;
+    
+   
+}
+
+.as-trailer{
+
+    position: absolute;
+    margin-top: 470px;
+    left: 420px;
+    
+    width: 200px;
+    height: 40px;
+    transform: skew(-25deg);
+
+    background-color: var(--Fundo);
+    color: var(--white);
+    border: 1px solid;
+
+    
+   
 }
