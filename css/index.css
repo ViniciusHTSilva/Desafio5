@@ -149,11 +149,6 @@
 
 }
 
-
-
-
-
-
 .as-agora{
 
     position: absolute;
@@ -172,9 +167,11 @@
     background-repeat: no-repeat;
     background-size: 20px 20px;
     background-position: 20px;
+    cursor: pointer;
     
    
 }
+
 
 .as-trailer{
 
@@ -189,7 +186,8 @@
     background-color: var(--Fundo);
     color: var(--white);
     border: 1px solid;
-
+    
+cursor: pointer;
     
    
 }
