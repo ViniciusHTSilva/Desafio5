@@ -27,14 +27,32 @@
   .logo{    
       margin-top: 5%;
       width: 70%;
+ 
 
   }
+  @keyframes animacao{
+
+    0% {transform: translateY(100px)}
+    
+    50%{transform: skew(15deg)}
+    
+    100%{transform: skew(-15deg)}
+
+
+
+   
+  
+  }
+
+
+ 
 
   .img-logo{
       position: absolute;
 
       left: 180px;
       width: 10%;
+      
   }
 
   .facebook{
@@ -143,8 +161,12 @@
     width: 450px;
     left: 700px;
     margin-top: 10%;
-    
 
+    animation-name: animacao;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+   
+  
  ;
 
 }
