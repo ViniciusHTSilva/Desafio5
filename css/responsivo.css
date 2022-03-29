@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 578px) {
     .img-logo{
         position: absolute;
         left: 50px;
@@ -31,7 +31,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 578px) {
     .ilus{
         position: absolute;
         height: 200px;
@@ -53,7 +53,7 @@
         width: 180px;
         left: 50px;
         margin-top: 220px;
-        font-size: 50px;
+        font-size: 40px;
     
     }
     .txt #cont{
@@ -70,7 +70,7 @@
 } 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 578px) {
     .as-agora{
         position: absolute;
         left: 70px;
