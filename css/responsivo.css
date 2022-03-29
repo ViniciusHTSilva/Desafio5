@@ -36,33 +36,33 @@
         position: absolute;
         height: 200px;
         width: 250px;
-        left: 190px;
+        left: 140px;
         margin-top: 30px;
        
     }
 
     .txt #altor{
         position: absolute;
-        left: 30px;
+        left: 50px;
         margin-top:200px;
-        font-size: 70px;
+        font-size: 30px;
     }
 
     .txt #titulo{
         position: absolute;
         width: 180px;
-        left: 30px;
+        left: 50px;
         margin-top: 220px;
-        font-size: 90px;
+        font-size: 50px;
     
     }
     .txt #cont{
         position: absolute;
         height: 148px;
         width: 250px;
-        left: 30px;
+        left: 50px;
         margin-top: 310px;
-        font-size: 50px;
+        font-size: 20px;
     
     
 
@@ -75,7 +75,7 @@
         position: absolute;
         left: 70px;
         margin-top: 400px;
-        height: 80px;
+        height: 60px;
 
     }
   
