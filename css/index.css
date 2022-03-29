@@ -58,7 +58,7 @@
   .facebook{
       position: absolute;
       left: 900px;
-      background-image: url(./image/facebook.png);
+      background-image: url(../image/facebook.png);
       background-repeat: no-repeat;
       background-size: 100%;
       padding: 20px;
@@ -74,7 +74,7 @@
   .instagram{
     position: absolute;
     left: 1000px;
-    background-image: url(./image/icons8-instagram-50.png);
+    background-image: url(../image/icons8-instagram-50.png);
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 20px;
@@ -90,7 +90,7 @@
   .twitter{
     position: absolute;
     left: 1100px;
-    background-image: url(./image/icons8-twitter-50.png);
+    background-image: url(../image/icons8-twitter-50.png);
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 20px;
@@ -106,7 +106,7 @@
   .youtube{
     position: absolute;
     left: 1200px;
-    background-image: url(./image/icons8-reproduzir-youtube-50.png);
+    background-image: url(../image/icons8-reproduzir-youtube-50.png);
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 20px;
