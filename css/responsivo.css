@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .img-logo{
         position: absolute;
         left: 50px;
@@ -31,7 +31,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .ilus{
         position: absolute;
         height: 200px;
@@ -70,7 +70,7 @@
 } 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .as-agora{
         position: absolute;
         left: 70px;
