@@ -36,7 +36,7 @@
         position: absolute;
         height: 200px;
         width: 250px;
-        left: 80px;
+        left: 60px;
         margin-top: 30px;
        
     }
@@ -50,9 +50,9 @@
 
     .txt #titulo{
         position: absolute;
-        width: 180px;
+        width: 280px;
         left: 50px;
-        margin-top: 220px;
+        margin-top: 230px;
         font-size: 40px;
     
     }
@@ -61,7 +61,7 @@
         height: 148px;
         width: 250px;
         left: 50px;
-        margin-top: 310px;
+        margin-top: 330px;
         font-size: 15px;
     
     
@@ -74,7 +74,7 @@
     .as-agora{
         position: absolute;
         left: 70px;
-        margin-top: 400px;
+        margin-top: 450px;
         height: 60px;
 
     }
