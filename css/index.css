@@ -32,7 +32,7 @@
   }
   @keyframes animacao{
 
-    0% {transform: translateY(100px)}
+    0% {transform: translateY(700px)}
     
     50%{transform: skew(15deg)}
     
