@@ -1,3 +1,11 @@
+@keyframes animacao{
+ 0% {transform: translateY(800px)}
+ 50%{transform: skew(15deg)}
+ 100%{transform: skew(-15deg)}
+
+}
+
+
 @media screen and (max-width: 578px) {
     .img-logo{
         position: absolute;
@@ -38,6 +46,9 @@
         width: 250px;
         left: 60px;
         margin-top: 30px;
+        animation-name: animacao;
+        animation-duration: 15s;
+        animation-iteration-count: infinite
        
     }
 
