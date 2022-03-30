@@ -48,7 +48,7 @@
         position: absolute;
         height: 200px;
         width: 250px;
-        left: 60px;
+        left: 80px;
         margin-top: 30px;
         animation-name: animacao;
         animation-duration: 15s;
@@ -58,8 +58,8 @@
 
     .txt #altor{
         position: absolute;
-        left: 50px;
-        top:100px;
+        left: 60px;
+        top: 100px;
         width: 200px ;
         font-size: 20px;
     }
@@ -67,7 +67,7 @@
     .txt #titulo{
         position: absolute;
         width: 280px;
-        left: 50px;
+        left: 60px;
         top: 110px;
         font-size: 40px;
     
@@ -76,7 +76,7 @@
         position: absolute;
         height: 148px;
         width: 250px;
-        left: 50px;
+        left: 60px;
         top: 50px;
         font-size: 15px;
     
@@ -89,7 +89,7 @@
 @media screen and (max-width: 578px) {
     .as-agora{
         position: absolute;
-        left: 50px;
+        left: 60px;
         top: 50px;
         width: 70%; 
         height: 60px;
