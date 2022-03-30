@@ -1,68 +1,79 @@
-@media screen and (max-width: 600px) {
+@keyframes animacao{
+ 0% {transform: translateY(1500px)}
+ 50%{transform: skew(15deg)}
+ 100%{transform: skew(-15deg)}
+
+}
+
+
+@media screen and (max-width: 578px) {
     .img-logo{
         position: absolute;
-        left: 20px;
+        left: 50px;
         width: 60px;
 
     }
     
     .facebook{
         position: absolute;
-        left: 150px;
+        left: 250px;
         background-size: 50%
         
     }
     .instagram{
         position: absolute;
-        left: 180px;
+        left: 280px;
         background-size: 50%
     }
     
     .twitter{
         position: absolute;
-        left: 210px;
+        left: 310px;
         background-size: 50%
     }
     .youtube{
 
         position: absolute;
-        left: 240px;
+        left: 340px;
         background-size: 50%
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 578px) {
     .ilus{
         position: absolute;
         height: 200px;
         width: 250px;
-        left: 30px;
+        left: 60px;
         margin-top: 30px;
+        animation-name: animacao;
+        animation-duration: 15s;
+        animation-iteration-count: infinite
        
     }
 
     .txt #altor{
         position: absolute;
-        left: 10px;
+        left: 50px;
         margin-top:200px;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .txt #titulo{
         position: absolute;
-        width: 180px;
-        left: 10px;
-        margin-top: 220px;
-        font-size: 30px;
+        width: 280px;
+        left: 50px;
+        margin-top: 230px;
+        font-size: 40px;
     
     }
     .txt #cont{
         position: absolute;
         height: 148px;
         width: 250px;
-        left: 10px;
-        margin-top: 310px;
-        font-size: 10px;
+        left: 50px;
+        margin-top: 330px;
+        font-size: 15px;
     
     
 
@@ -70,12 +81,13 @@
 } 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 578px) {
     .as-agora{
         position: absolute;
-        left: 20px;
-        margin-top: 400px;
-        height: 35px;
+        left: 70px;
+        margin-top: 450px;
+        width: 50%; 
+        height: 60px;
 
     }
   
